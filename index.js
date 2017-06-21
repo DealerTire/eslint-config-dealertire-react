@@ -105,8 +105,13 @@ module.exports = {
         ]
       }
     }],
-    semi:              ['warn', 'never'],
-    'spaced-comment':  0,
+    semi:                          ['warn', 'never'],
+    'spaced-comment':              0,
+    'space-before-function-paren': ['error', {
+      anonymous:  'never',
+      named:      'never',
+      asyncArrow: 'always'
+    }],
     'keyword-spacing': ['error', {
       overrides: {
         if: { after: false },
