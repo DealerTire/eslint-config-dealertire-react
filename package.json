@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dealertire-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Eslint config for DT react projects",
   "main": "index.js",
   "repository": "https://github.com/DealerTire/eslint-config-dealertire-react.git",
