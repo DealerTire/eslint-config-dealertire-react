@@ -73,6 +73,7 @@ module.exports = {
     'react/react-in-jsx-scope':                0,
     'react/require-default-props':             0,
     'react/require-extension':                 0,
+    'react/prefer-stateless-function':         0,
     'react/sort-comp':                         [1, {
       order: [
         'type-annotations',
@@ -87,6 +88,7 @@ module.exports = {
           'defaultProps',
           'contextTypes',
           'childContextTypes',
+          'getDerivedStateFromProps',
           'messages',
           'mixins',
           'statics',
@@ -100,8 +102,10 @@ module.exports = {
           'componentWillReceiveProps',
           'shouldComponentUpdate',
           'componentWillUpdate',
+          'getSnapshotBeforeUpdate',
           'componentDidUpdate',
-          'componentWillUnmount'
+          'componentWillUnmount',
+          'componentDidCatch'
         ]
       }
     }],
